@@ -6,10 +6,11 @@ pipeline{
         choice(name: "BROWSER" ,choices: ['chrome','edge'], description:"Escoja un browser")
     }
 
+/*
     options{
         ansiColor('xterm')
     }
-
+*/
     stages{
         stage('Build'){
             steps{
